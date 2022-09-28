@@ -1,0 +1,44 @@
+[
+    {
+        "id": "6334840846fa5bf397eace10",
+        "picture": "https://media.mehrnews.com/d/2022/04/30/4/4137681.jpg",
+        "time": 30,
+        "title": "Futsal",
+        "details": "Play Futsal with in a team of 5. Mini indoor football"
+    },
+    {
+        "id": "633484084fa1e7d73006b740",
+        "picture": "https://westonis.com.au/wp-content/uploads/2021/02/119047831_730146990899485_5743374292860357314_n.jpg",
+        "time": 60,
+        "title": "Indoot Cricket",
+        "details": "Play cricket with 6 a side teams. Each innings consists of 5 overs"
+    },
+    {
+        "id": "63348408952a235e6e829e92",
+        "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ96nUBMy2bq-Xn_GeFiwHcMLVpSNrRe7iudg&usqp=CAU",
+        "time": 30,
+        "title": "Table Tennis",
+        "details": "Play a match with equal ranked player. Ranking is done by match records"
+    },
+    {
+        "id": "63348408ed4aa23e25eae4fd",
+        "picture": "https://images.unsplash.com/photo-1560090995-01632a28895b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c3dpbW1pbmd8ZW58MHx8MHx8&w=1000&q=80",
+        "time": 20,
+        "title": "Swimming",
+        "details": "Swim and learn to swim with a professional trainer."
+    },
+    {
+        "id": "633484081254252c60174e48",
+        "picture": "https://www.womensrunning.com/wp-content/uploads/2016/11/indoor-marathon-621x420.jpg?width=621",
+        "time": 25,
+        "title": "Indoor Marathon",
+        "details": "Highly recommended for those who want to get in shape"
+    },
+    {
+        "id": "633484081254252c60174f98",
+        "picture": "https://media.istockphoto.com/photos/businessman-suit-with-chess-board-game-plan-stratgy-and-tactic-picture-id1256422923?k=20&m=1256422923&s=612x612&w=0&h=iXgv2l6Wukfwh-HlYQq_fNR6__E76Rjqs2Eg5B22Chk=",
+        "time": 15,
+        "title": "Chess",
+        "details": "Play chess with time limit and storm your brain"
+    }
+]

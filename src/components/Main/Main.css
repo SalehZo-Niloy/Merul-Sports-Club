@@ -1,0 +1,22 @@
+.main-sec-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.card-container {
+    background-color: rgb(224, 229, 255);
+    padding: 3rem;
+}
+
+.card-container img {
+    width: 70px;
+    height: 40px;
+}
+
+.card-container h2 {
+    color: rgb(182, 133, 0);
+}
+
+.card-container h3 {
+    margin-left: 1rem;
+}
