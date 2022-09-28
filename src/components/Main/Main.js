@@ -19,9 +19,9 @@ const Main = () => {
                     <h2>Merul Sports Club</h2>
                 </div>
                 <h3>Select Today's Activity</h3>
-                <div>
+                <div className='cards'>
                     {
-                        cards.map(card => <Cards card={card}></Cards>)
+                        cards.map(card => <Cards card={card} key={card.id}></Cards>)
                     }
                 </div>
             </div>
