@@ -2,6 +2,9 @@ import React, { useEffect, useState } from 'react';
 import './Main.css'
 import logo from '../../images/logo.png'
 import Cards from '../Cards/Cards';
+import User from '../User/User';
+import Break from '../Break/Break';
+import Activity from '../Activity/Activity';
 
 const Main = () => {
     const [cards, setCards] = useState([]);
@@ -26,7 +29,9 @@ const Main = () => {
                 </div>
             </div>
             <div className="calculation-container">
-                <h2>Calculations</h2>
+                <User></User>
+                <Break></Break>
+                <Activity></Activity>
             </div>
         </div>
     );

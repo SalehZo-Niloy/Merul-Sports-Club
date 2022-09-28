@@ -1,0 +1,20 @@
+.break-times {
+    background-color: rgb(224, 229, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    border-radius: 1rem;
+}
+
+.break-times button {
+    border-radius: 100%;
+    height: 2.8rem;
+    margin: 0 .5rem;
+    border: none;
+}
+
+.break-times button:hover {
+    background-color: rgb(101, 69, 245);
+    color: white;
+}
