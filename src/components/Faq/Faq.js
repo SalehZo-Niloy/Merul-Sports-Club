@@ -12,24 +12,28 @@ const Faq = () => {
                 </li>
                 <li>
                     <h4>Difference between Props and State</h4>
-                    <p><table>
-                        <tr>
-                            <th>PROPS</th>
-                            <th>STATE</th>
-                        </tr>
-                        <tr>
-                            <td>The Data is passed from one component to another.</td>
-                            <td>The Data is passed within the component only.</td>
-                        </tr>
-                        <tr>
-                            <td>It is Immutable.</td>
-                            <td>It is Mutable.</td>
-                        </tr>
-                        <tr>
-                            <td>Props are read-only.</td>
-                            <td>State is both read and write.</td>
-                        </tr>
-                    </table></p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>PROPS</th>
+                                <th>STATE</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>The Data is passed from one component to another.</td>
+                                <td>The Data is passed within the component only.</td>
+                            </tr>
+                            <tr>
+                                <td>It is Immutable.</td>
+                                <td>It is Mutable.</td>
+                            </tr>
+                            <tr>
+                                <td>Props are read-only.</td>
+                                <td>State is both read and write.</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </li>
                 <li>
                     <h4>useEffect use cases excluding API fetch</h4>
