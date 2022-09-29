@@ -1,0 +1,22 @@
+.faq {
+    background-color: rgb(191, 196, 216);
+    padding: 2rem;
+}
+
+.faq h3 {
+    text-align: center;
+}
+
+.faq h4,
+p {
+    margin: .5rem 0;
+}
+
+.faq th {
+    text-align: center;
+}
+
+.faq td {
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
