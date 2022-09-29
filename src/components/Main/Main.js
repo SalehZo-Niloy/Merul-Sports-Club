@@ -10,6 +10,7 @@ import { addToDb, getFromDb } from '../../utilities/fakeDb';
 const Main = () => {
     const [cards, setCards] = useState([]);
     const [breakTime, setBreakTime] = useState(getFromDb);
+    const [totalTime, setTotalTime] = useState(0);
 
     useEffect(() => {
         fetch('activities.json')
@@ -26,6 +27,11 @@ const Main = () => {
             addToDb(breakTime);
         }
     }, [breakTime])
+
+    const handleAddToList = (card) => {
+        setTotalTime(totalTime + card.time);
+    }
+
     return (
         <div className='main-sec-container'>
             <div className="card-container">
@@ -36,14 +42,14 @@ const Main = () => {
                 <h3>Select Today's Activity</h3>
                 <div className='cards'>
                     {
-                        cards.map(card => <Cards card={card} key={card.id}></Cards>)
+                        cards.map(card => <Cards card={card} key={card.id} handleAddToList={handleAddToList}></Cards>)
                     }
                 </div>
             </div>
             <div className="calculation-container">
                 <User></User>
                 <Break setBreakTime={setBreakTime}></Break>
-                <Activity breakTime={breakTime}></Activity>
+                <Activity breakTime={breakTime} totalTime={totalTime}></Activity>
             </div>
         </div>
     );
