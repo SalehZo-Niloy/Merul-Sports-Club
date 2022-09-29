@@ -30,3 +30,27 @@
 .calculation-container {
     padding: 2rem;
 }
+
+@media only screen and (max-width:767px) {
+    .main-sec-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .calculation-container {
+        order: 1;
+    }
+
+    .card-container {
+        order: 2;
+    }
+
+    .cards {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+        justify-items: center;
+    }
+
+    .card-container {
+        padding: 1rem;
+    }
+}
