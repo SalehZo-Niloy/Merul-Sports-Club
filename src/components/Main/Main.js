@@ -6,6 +6,7 @@ import User from '../User/User';
 import Break from '../Break/Break';
 import Activity from '../Activity/Activity';
 import { addToDb, getFromDb } from '../../utilities/fakeDb';
+import Toast from '../Toast/Toast';
 
 const Main = () => {
     const [cards, setCards] = useState([]);
@@ -50,6 +51,7 @@ const Main = () => {
                 <User></User>
                 <Break setBreakTime={setBreakTime}></Break>
                 <Activity breakTime={breakTime} totalTime={totalTime}></Activity>
+                <Toast totalTime={totalTime}></Toast>
             </div>
         </div>
     );

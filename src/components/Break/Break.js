@@ -1,5 +1,4 @@
 import React from 'react';
-import { addToDb } from '../../utilities/fakeDb';
 import './Break.css'
 
 const Break = (props) => {
